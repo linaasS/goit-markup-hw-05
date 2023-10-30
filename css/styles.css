@@ -831,7 +831,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .modal-form-div-input:focus .modal-form-div-svg{
-    fill: #4D5AE5; /*var(--iris-color); */
+    fill: var(--iris-color);
 }
 
 .comment-div{
@@ -893,9 +893,9 @@ width: calc((100% - 72px) / 4);
 }
 
 .pr-pol-input:checked .pr-pol-label-span{
-    background-color: #404bbf; /* var(--ocean-color); */
+    background-color: var(--ocean-color);
     border: none;
-    fill: #F4F4FD; /* var(--cloud-color); */
+    fill: var(--cloud-color);
 }
 
 .pr-pol-label-link{
